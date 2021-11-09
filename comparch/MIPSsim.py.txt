@@ -395,8 +395,8 @@ def main(argv):
     #data print
     def data_print():
         output = "Data\n"
-        d_316 = "316:"
-        d_348 = "348:"
+        d_316 = str(data_break) + ":"
+        d_348 = str(data_break+32) + ":"
 
         for i in range(8):
             d_316 = d_316 + "\t" + str(data[i])
