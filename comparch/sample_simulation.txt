@@ -223,9 +223,6 @@ Buf4:
 	Entry 0:
 	Entry 1:
 Buf5:
-	Entry 0:
-	Entry 1:
-Buf5:
 Buf6:
 Buf7:
 Buf8:
@@ -383,9 +380,6 @@ Buf3:
 	Entry 0:
 	Entry 1:
 Buf4:
-	Entry 0: 
-	Entry 1:
-Buf5:
 	Entry 0: 
 	Entry 1:
 Buf5: [LW R3, 316(R6)]
@@ -1029,9 +1023,9 @@ Buf4:
 	Entry 0: 
 	Entry 1:
 Buf5:
-Buf6: 
+Buf6: [4, R6]
 Buf7:
-Buf8: [4, R6]
+Buf8: 
 Buf9: 
 Buf10:  
 
@@ -1269,8 +1263,6 @@ Buf4:
 	Entry 0: 
 	Entry 1:
 Buf5:
-	Entry 0: 
-	Entry 1: 
 Buf6: 
 Buf7:
 Buf8: 
@@ -1311,8 +1303,6 @@ Buf4:
 	Entry 0: [MUL R5, R3, R4]
 	Entry 1:
 Buf5:
-	Entry 0: 
-	Entry 1: 
 Buf6: 
 Buf7:
 Buf8: 
@@ -1473,8 +1463,6 @@ Buf4:
 	Entry 0: 
 	Entry 1:
 Buf5:
-	Entry 0: 
-	Entry 1: 
 Buf6: 
 Buf7:
 Buf8: 
@@ -2235,15 +2223,11 @@ Buf4:
 	Entry 0: 
 	Entry 1:
 Buf5:
-	Entry 0: 
-	Entry 1: 
 Buf6: 
 Buf7:
 Buf8: 
 Buf9:
 Buf10: 
-Buf11: 
-Buf12: 
 
 Registers
 R00:	0	2	3	-3	-4	12	8	0
